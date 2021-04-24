@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_bkrk_discp"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:gravity="center|center_horizontal"
+        android:text="请扫描二维码"
+        android:background="@drawable/textview_border"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/yc_warehousing_cp"
+            android:layout_width="70dp"
+            android:layout_height="60sp"
+            android:background="@drawable/textview_border"
+            android:gravity="left|center_vertical"
+            android:text="产品:"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/edit_yc_warehousing_cp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"/>
+
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp" >
+
+        <Button
+            android:id="@+id/btn_yc_warehousing_cx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询" />
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_yc_warehousing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

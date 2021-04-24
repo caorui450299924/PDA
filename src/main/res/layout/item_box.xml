@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60sp">
+
+    <ImageView
+        android:id="@+id/iv_box"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:src="@drawable/p1" />
+    <!--铭牌号-->
+    <!--物料-->
+
+    <TextView
+        android:id="@+id/tv_mph"
+        android:layout_width="258dp"
+        android:layout_height="60sp"
+        android:layout_gravity="top|center_vertical"
+        android:text="@string/mph"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/wl_image"
+        android:layout_width="match_parent"
+        android:layout_height="60sp" />
+
+
+
+
+
+</LinearLayout>

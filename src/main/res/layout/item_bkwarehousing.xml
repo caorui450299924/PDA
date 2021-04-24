@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="121sp">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="105sp"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/textview_border_product"
+        >
+
+        <ImageView
+            android:id="@+id/imv_bkrk_dis"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/box" />
+
+        <RadioGroup
+            android:layout_width="251sp"
+            android:layout_height="105sp">
+
+            <TextView
+                android:id="@+id/tv_bkrk_wl"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_bkrk_wl" />
+
+            <TextView
+                android:id="@+id/tv_bkrk_hwh"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="19sp"
+                tools:text="tv_bkrk_hwh" />
+
+            <TextView
+                android:id="@+id/tv_bkrk_sl"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:text="tv_bkrk_sl"
+                android:textSize="19sp" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView_int_delete"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/rk" />
+
+    </RadioGroup>
+</LinearLayout>

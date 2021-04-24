@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="210sp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="210sp"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="74dp"
+            android:layout_height="89dp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/support_search" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_tuoid"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:textSize="19sp"
+                tools:text="textView_tuoid" />
+
+            <TextView
+                android:id="@+id/textView_tuocode"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="textView_tuocode"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView_tuozt"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="textView_tuozt"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView_tuosfzt"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="textView_tuosfzt"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView_tuocjsj"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="textView_tuocjsj"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView_tuoxs"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView_tuojs"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:textSize="19sp" />
+
+        </RadioGroup>
+    </RadioGroup>
+
+</LinearLayout>

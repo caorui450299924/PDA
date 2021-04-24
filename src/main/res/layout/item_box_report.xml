@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180sp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView_box_report"
+            android:layout_width="74dp"
+            android:layout_height="89dp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/support_search" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView_boxid"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:textSize="19sp"
+                tools:text="textView_boxid" />
+
+            <TextView
+                android:id="@+id/textView_boxcode"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="textView_boxcode"
+                android:textSize="19sp"/>
+            <TextView
+                android:id="@+id/textView_tuo_code"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="textView_tuo_code"
+                android:textSize="19sp"/>
+            <TextView
+                android:id="@+id/textView_tuo_state"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="textView_tuo_state"
+                android:textSize="19sp"/>
+            <TextView
+                android:id="@+id/textView_js"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="textView_js"
+                android:textSize="19sp"/>
+            <TextView
+                android:id="@+id/textView_box_cjrq"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:text="textView_box_cjrq"
+                android:textSize="19sp"/>
+
+        </RadioGroup>
+    </RadioGroup>
+
+</LinearLayout>

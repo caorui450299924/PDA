@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Button_load1"
+            android:layout_width="154dp"
+            android:layout_height="47dp"
+            android:text="整托"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/Button_load2"
+            android:layout_width="154dp"
+            android:layout_height="47dp"
+            android:text="散托"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_load"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:gravity="center|left"
+            android:text="托号："
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView_load_dis"
+            android:layout_width="286dp"
+            android:layout_height="63dp"
+            android:layout_gravity="fill"
+            android:gravity="center_horizontal|left|center_vertical"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="73dp">
+
+        <Button
+            android:id="@+id/btn_support_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="拼托提交"
+            android:textSize="30sp" />
+
+
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rev_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

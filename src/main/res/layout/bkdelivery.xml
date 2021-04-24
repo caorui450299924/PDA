@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_bkck_cp_dis"
+            android:layout_width="70dp"
+            android:layout_height="60sp"
+            android:background="@drawable/textview_border"
+            android:gravity="left|center_vertical"
+            android:text="产品:"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_bkck_cp"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_gravity="fill"
+            android:background="@drawable/textview_border"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:background="@drawable/textview_border"
+        >
+
+        <TextView
+            android:id="@+id/tv_bkck_hwh_dis"
+            android:layout_width="70dp"
+            android:layout_height="60sp"
+            android:gravity="left|center_vertical"
+            android:text="货位:"
+            android:textSize="26sp"
+            android:background="@drawable/textview_border"/>
+
+        <TextView
+            android:id="@+id/tv_bkck_hwh"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:gravity="left|center_vertical"
+            android:textSize="26sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:background="@drawable/textview_border"
+        >
+        <TextView
+            android:id="@+id/tv_bkck_sl_dis"
+            android:layout_width="70dp"
+            android:layout_height="60sp"
+            android:gravity="left|center_vertical"
+            android:text="数量:"
+            android:background="@drawable/textview_border"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/edt_sl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberSigned" />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp" >
+
+        <Button
+            android:id="@+id/btn_bkck_ck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="出库" />
+    </RadioGroup>
+</LinearLayout>

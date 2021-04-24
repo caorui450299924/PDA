@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="60sp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewbhmxwl"
+            android:layout_width="200sp"
+            android:layout_height="60sp"
+            android:background="@drawable/textview_border"
+            android:gravity="center|left"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewbhmxhwh"
+            android:layout_width="70sp"
+            android:layout_height="60sp"
+            android:gravity="center"
+            android:text="TextView"
+            android:background="@drawable/textview_border" />
+
+        <TextView
+            android:id="@+id/textViewbhmxsl"
+            android:layout_width="30sp"
+            android:layout_height="60sp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="TextView"
+            android:background="@drawable/textview_border" />
+
+        <ImageView
+            android:id="@+id/imageViewbhmx"
+            android:layout_width="70sp"
+            android:layout_height="49sp"
+            android:layout_gravity="center"
+            android:src="@drawable/delete"
+            />
+    </RadioGroup>
+</LinearLayout>
