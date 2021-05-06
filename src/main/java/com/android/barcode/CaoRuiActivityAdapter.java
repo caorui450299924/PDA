@@ -77,6 +77,7 @@ public class CaoRuiActivityAdapter extends RecyclerView.Adapter<CaoRuiActivityAd
                 intent.putExtra("gdh",mWl_info.get(position).getGdh());
                 intent.putExtra("gys",mWl_info.get(position).getGys());
                 intent.putExtra("lch",mWl_info.get(position).getLch());
+                intent.putExtra("hwh",mWl_info.get(position).getHwh());
                 contxt.startActivity(intent);
 
 

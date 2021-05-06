@@ -87,7 +87,7 @@ public class CaoRuiActivityRk extends AppCompatActivityBase {
         edt_sl.setFocusableInTouchMode(false);
         sl = intent.getStringExtra("sl");
         //Log.d("sl",sl);
-        BK_info_mh bk_info_mh=new BK_info_mh(intent.getStringExtra("wl"),intent.getStringExtra("lch"),intent.getStringExtra("jjc"),"",intent.getStringExtra("pz"),
+        BK_info_mh bk_info_mh=new BK_info_mh(intent.getStringExtra("wl"),intent.getStringExtra("lch"),intent.getStringExtra("jjc"),intent.getStringExtra("hwh"),intent.getStringExtra("pz"),
                 intent.getStringExtra("gg"),intent.getStringExtra("xs"),intent.getStringExtra("cpbm"),intent.getStringExtra("kbh"),intent.getStringExtra("gdh"),
                 intent.getStringExtra("gys"),intent.getStringExtra("czfl"),intent.getStringExtra("bmcl"));
         intBtn_rk(sl,bk_info_mh);
@@ -304,11 +304,12 @@ public class CaoRuiActivityRk extends AppCompatActivityBase {
             req_supportreport.put("cpbm",bk_info_mh.getCpbm());
             req_supportreport.put("sl",num);
             req_supportreport.put("lch",bk_info_mh.getLch());
-            req_supportreport.put("hwh",hwh);
+            req_supportreport.put("hwh",bk_info_mh.getHwh());
             req_supportreport.put("kbh",bk_info_mh.getKbh());
             req_supportreport.put("gdh",bk_info_mh.getGdh());
             req_supportreport.put("gys",bk_info_mh.getGys());
             req_supportreport.put("user",user);
+            req_supportreport.put("lqhwh",hwh);
         } catch (JSONException e) {
             e.printStackTrace();
         }
