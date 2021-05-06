@@ -15,6 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -23,6 +24,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -36,6 +38,7 @@ import static com.android.barcode.Post.post_com;
 
 public class SupportReport extends Activity {
     EditText supporteditview;
+    Button btn_support_confirm;
     private String RECE_DATA_ACTION = "com.se4500.onDecodeComplete";
     private BroadcastReceiver receiver = new BroadcastReceiver() {
 
@@ -68,6 +71,8 @@ public class SupportReport extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.supportreport);
         Button btn_support_search = (Button)findViewById(R.id.button_support_search);
+        btn_support_confirm = (Button)findViewById(R.id.button_support_confirm);
+        btn_support_confirm.setEnabled(false);
         supporteditview = (EditText)findViewById(R.id.editview_support_report);
         supporteditview.setEnabled(false);
         btn_support_search.setOnClickListener(new View.OnClickListener() {
@@ -158,7 +163,9 @@ public class SupportReport extends Activity {
                                 }
                                 JSONArray box_Jsons = new JSONArray(d.get("Data").toString());
                                 List<Support_info> wl_detail_list = new ArrayList<>();
+                                final int th=Integer.parseInt(box_Jsons.getJSONObject(0).get("SUPPORT_ID").toString());
                                 for(int i=0;i<box_Jsons.length();i++){
+
                                     int tuoid = Integer.parseInt(box_Jsons.getJSONObject(i).get("SUPPORT_ID").toString());
                                     String tuocode = box_Jsons.getJSONObject(i).get("SUPPORT_CODE").toString();
                                     String tuozt = box_Jsons.getJSONObject(i).get("SUPPORT_STATE_DESC").toString();
@@ -178,6 +185,13 @@ public class SupportReport extends Activity {
                                 SupportReportAdapter adapter  =new SupportReportAdapter(wl_detail_list,SupportReport.this,SupportReport.this);
                                 recyclerView.setAdapter(adapter);
                                 recyclerView.addItemDecoration(new SpacesItemDecoration());
+                                btn_support_confirm.setEnabled(true);
+                                btn_support_confirm.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View view) {
+                                        intBtn_cx(th);
+                                    }
+                                });
                             }catch (Exception e){
                                 e.printStackTrace();
                                 final String mes1=e.getMessage();
@@ -207,6 +221,80 @@ public class SupportReport extends Activity {
 
             return;
         }
+    }
+    public void intBtn_cx(final int th){
+
+                //Log.d("pz",pz);
+                // Log.d("gg",gg);
+                Log.d("th",th+"");
+                JSONObject req_supportreport = new JSONObject();
+//                try {
+//                    req_supportreport.put("th",th);
+//                }catch (JSONException e){
+//                    e.printStackTrace();
+//                }
+                OkHttpClient client = new OkHttpClient.Builder().connectTimeout(1000, TimeUnit.SECONDS).readTimeout(1000,TimeUnit.SECONDS).build();
+                RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),req_supportreport.toString());
+                LoadingDialog.getInstance(SupportReport.this).show();
+                final Request request = new Request.Builder().url("http://www.vapp.meide-casting.com/app/pz").post(requestBody).build();
+                Call call = client.newCall(request);
+                call.enqueue(new Callback() {
+                    @Override
+                    public void onFailure(Call call, IOException e) {
+                        LoadingDialog.getInstance(SupportReport.this).dismiss();
+                        final  String message = e.getMessage();
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(SupportReport.this,"查询数据失败"+message,Toast.LENGTH_LONG).show();
+                            }
+                        });
+                        return;
+                    }
+
+                    @Override
+                    public void onResponse(Call call, Response response) throws IOException {
+                        LoadingDialog.getInstance(SupportReport.this).dismiss();
+                        final String box_res1 = response.body().string();
+                        try {
+                            JSONObject box_res_json = new JSONObject(box_res1);
+                            String code = box_res_json.getString("flag").toString();
+                            final String msg = box_res_json.getString("msg").toString();
+                            if (!code.equals("1")){
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Toast.makeText(SupportReport.this,"查询数据失败"+msg,Toast.LENGTH_LONG).show();
+                                    }
+                                });
+                                return;
+                            }
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    Toast.makeText(SupportReport.this,"成功"+msg,Toast.LENGTH_LONG).show();
+                                    SupportReport.this.finish();
+                                }
+                            });
+
+
+
+                        }catch (JSONException e){
+                            Log.e("解析查询数据失败",e.getMessage());
+                            final String msg = e.getMessage();
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    Toast.makeText(SupportReport.this,"查询数据失败："+msg, Toast.LENGTH_LONG).show();
+                                }
+                            });
+                            return;
+                        }
+                    }
+                });
+
+
+
     }
 
     @Override

@@ -200,7 +200,7 @@ public class CaoRuiActivityRk extends AppCompatActivityBase {
         RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),req_supportreport.toString());
         LoadingDialog.getInstance(CaoRuiActivityRk.this).show();
         final Request request = new Request.Builder()
-                .url("http://www.vapp.meide-casting.com/app/hwhcx")
+                .url("http://www.vapp.meide-casting.com/app/fmbkhwh")
                 .post(requestBody)
                 .build();
         Call call = client.newCall(request);
@@ -317,7 +317,7 @@ public class CaoRuiActivityRk extends AppCompatActivityBase {
         LoadingDialog.getInstance(CaoRuiActivityRk.this).show();
         Log.d("入库调用接口开始时间",bk_info_mh.getPz() + "" + bk_info_mh.getGg() +"" + bk_info_mh.getXs() + "" + user + "" + "" + hwh + "" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(System.currentTimeMillis()));
         final Request request = new Request.Builder()
-                .url("http://www.vapp.meide-casting.com/app/rk")
+                .url("http://www.vapp.meide-casting.com/app/fmbkrk")
                 ///.url("http://10.0.2.40:8092/Service/MDWechatService.asmx/QueryBoxInfo")
                 .post(requestBody)
                 .build();

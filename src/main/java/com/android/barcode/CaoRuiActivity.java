@@ -75,7 +75,7 @@ public class CaoRuiActivity extends AppCompatActivityBase {
         RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),"");
         LoadingDialog.getInstance(CaoRuiActivity.this).show();
         final Request request = new Request.Builder()
-                .url("http://www.vapp.meide-casting.com/app/pz")
+                .url("http://www.vapp.meide-casting.com/app/fmbkpz")
                 .post(requestBody)
                 .build();
         Call call = client.newCall(request);
@@ -184,7 +184,7 @@ public class CaoRuiActivity extends AppCompatActivityBase {
                 OkHttpClient client = new OkHttpClient.Builder().connectTimeout(1000, TimeUnit.SECONDS).readTimeout(1000,TimeUnit.SECONDS).build();
                 RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),req_supportreport.toString());
                 LoadingDialog.getInstance(CaoRuiActivity.this).show();
-                final Request request = new Request.Builder().url("http://www.vapp.meide-casting.com/app/fmcprkcx").post(requestBody).build();
+                final Request request = new Request.Builder().url("http://www.vapp.meide-casting.com/app/fmbkrkcx").post(requestBody).build();
                 Call call = client.newCall(request);
                 call.enqueue(new Callback() {
                     @Override

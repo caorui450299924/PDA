@@ -149,7 +149,7 @@ public class CaoRuiActivityCk_x extends AppCompatActivityBase {
         LoadingDialog.getInstance(CaoRuiActivityCk_x.this).show();
         Log.d("出库调用接口开始时间",bk_info_mh.getPz() + "" + bk_info_mh.getGg() +"" + bk_info_mh.getXs() + "" + user + "" + "" + hwh + "" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(System.currentTimeMillis()));
         final Request request = new Request.Builder()
-                .url("http://www.vapp.meide-casting.com/app/ck")
+                .url("http://www.vapp.meide-casting.com/app/fmbkck")
                 ///.url("http://10.0.2.40:8092/Service/MDWechatService.asmx/QueryBoxInfo")
                 .post(requestBody)
                 .build();

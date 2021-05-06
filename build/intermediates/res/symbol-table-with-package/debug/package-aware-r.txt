@@ -726,6 +726,7 @@ id button_hwh
 id button_pintuo
 id button_product_location
 id button_repeat
+id button_support_confirm
 id button_support_search
 id button_testfunction
 id buttonclear
@@ -764,6 +765,7 @@ id editview_support_report
 id edt_gg
 id edt_pz1
 id edt_sl
+id edt_xs
 id end
 id end_padder
 id et_password
@@ -992,6 +994,7 @@ id tv_bkck_lch
 id tv_bkck_pz_dis
 id tv_bkck_sl_dis
 id tv_bkck_wl
+id tv_bkck_xs_dis
 id tv_bkmhck_hwh
 id tv_bkmhck_sl
 id tv_bkmhck_wl
@@ -1019,6 +1022,7 @@ id tv_suppoert_dis
 id tv_username
 id tv_xbkck_gg
 id tv_xbkck_pz
+id tv_xbkck_xs
 id tv_yc_operation_cp
 id tv_yc_operation_hwh
 id tv_yc_operation_jjc
@@ -1030,6 +1034,7 @@ id wl_image
 id wrap_content
 id xedt_gg
 id xedt_pz
+id xedt_xs
 id yc_operation_cp
 id yc_operation_hw
 id yc_operation_sl
