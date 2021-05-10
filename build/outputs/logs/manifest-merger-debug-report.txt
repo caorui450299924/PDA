@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-145:12
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-153:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\0ad6bec1f71c69aaa047bcd4f84e6424\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\183c4aae5514aab61783b051e3fe5661\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a3a9e22007cb6d8b2fa75acb81cda4fb\AndroidManifest.xml:17:1-22:12
@@ -33,20 +33,20 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gra
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\af2f440b25cadaad80a1d5f4398eb6b6\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\76d01c582d9c2132c7004cc0359be63d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\437423f64a3b9a1b0ea3906712e02cff\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-153:12
 	package
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-145:12
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-153:12
 		INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-145:12
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:1-153:12
 		INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:2:11-69
@@ -79,7 +79,7 @@ ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:11:5-
 	android:name
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:11:22-81
 application
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:13:5-143:19
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:13:5-151:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b1b27ccac62b33381f3736b707d3b2ee\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b1b27ccac62b33381f3736b707d3b2ee\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\963aec5cc735ae1582c8fb39efb9ffdf\AndroidManifest.xml:22:5-23:19
@@ -106,23 +106,23 @@ ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:20:9-
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:22:13-69
 	android:name
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:20:19-48
-activity#com.android.barcode.CaoRuiActivityRk
+activity#com.android.barcode.YCQueryMaterial
 ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:24:9-27:25
 	android:launchMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:25:13-44
 	android:theme
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:26:13-69
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:24:19-51
-activity#com.android.barcode.CaoRuiActivityCk_x
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:24:19-50
+activity#com.android.barcode.QueryMaterial
 ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:28:9-31:25
 	android:launchMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:29:13-44
 	android:theme
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:30:13-69
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:28:19-53
-activity#com.android.barcode.CaoRuiActivityCk
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:28:19-48
+activity#com.android.barcode.CaoRuiActivityRk
 ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:32:9-35:25
 	android:launchMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:33:13-44
@@ -130,226 +130,242 @@ ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:32:9-
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:34:13-69
 	android:name
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:32:19-51
+activity#com.android.barcode.CaoRuiActivityCk_x
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:36:9-39:25
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:37:13-44
+	android:theme
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:36:19-53
+activity#com.android.barcode.CaoRuiActivityCk
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:40:9-43:25
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:41:13-44
+	android:theme
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:42:13-69
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:40:19-51
 activity#com.android.barcode.BKDelivery
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:36:9-39:72
-	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:38:13-44
-	android:theme
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:39:13-69
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:37:13-39
-activity#com.android.barcode.BKWarehousing
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:40:9-43:72
-	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:42:13-44
-	android:theme
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:43:13-69
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:41:13-42
-activity#com.android.barcode.BoxZt
 ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:44:9-47:72
 	android:launchMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:46:13-44
 	android:theme
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:47:13-69
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:45:13-34
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:45:13-39
+activity#com.android.barcode.BKWarehousing
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:48:9-51:72
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:50:13-44
+	android:theme
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:49:13-42
+activity#com.android.barcode.BoxZt
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:52:9-55:72
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:54:13-44
+	android:theme
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:55:13-69
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:53:13-34
 activity#com.android.barcode.Warehousing
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:48:9-50:72
-	android:theme
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:50:13-69
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:49:13-40
-activity#com.android.barcode.FhdMx
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:51:9-54:72
-	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:53:13-44
-	android:theme
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:54:13-69
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:52:13-34
-activity#com.android.barcode.Fhd
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:55:9-59:63
-	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:57:13-44
-	android:windowSoftInputMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:59:13-60
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:56:9-58:72
 	android:theme
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:58:13-69
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:56:13-32
-activity#com.android.barcode.HwhSearch
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:60:9-63:63
-	android:windowSoftInputMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:63:13-60
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:57:13-40
+activity#com.android.barcode.FhdMx
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:59:9-62:72
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:61:13-44
 	android:theme
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:62:13-69
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:61:13-38
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:60:13-34
+activity#com.android.barcode.Fhd
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:63:9-67:63
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:65:13-44
+	android:windowSoftInputMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:67:13-60
+	android:theme
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:66:13-69
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:64:13-32
+activity#com.android.barcode.HwhSearch
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:68:9-71:63
+	android:windowSoftInputMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:71:13-60
+	android:theme
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:70:13-69
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:69:13-38
 activity#com.android.barcode.Test1104
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:64:9-46
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:72:9-46
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:64:19-43
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:72:19-43
 activity#com.android.barcode.BoxPt
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:65:9-43
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:73:9-43
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:65:19-40
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:73:19-40
 activity#com.android.barcode.ProductDetail
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:66:9-51
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:74:9-51
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:66:19-48
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:74:19-48
 activity#com.android.barcode.AddBox
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:67:9-70:63
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:75:9-78:63
 	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:69:13-44
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:77:13-44
 	android:windowSoftInputMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:70:13-60
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:78:13-60
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:68:13-35
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:76:13-35
 activity#com.android.barcode.IntSupport
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:71:9-73:47
-	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:73:13-44
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:72:13-39
-activity#com.android.barcode.ProductLocation
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:74:9-77:63
-	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:76:13-44
-	android:windowSoftInputMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:77:13-60
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:75:13-44
-activity#com.android.barcode.TestFunction
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:78:9-50
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:78:19-47
-activity#com.android.barcode.BoxReport
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:79:9-82:63
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:79:9-81:47
 	android:launchMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:81:13-44
-	android:windowSoftInputMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:82:13-60
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:80:13-38
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:80:13-39
+activity#com.android.barcode.ProductLocation
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:82:9-85:63
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:84:13-44
+	android:windowSoftInputMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:85:13-60
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:83:13-44
+activity#com.android.barcode.TestFunction
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:86:9-50
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:86:19-47
+activity#com.android.barcode.BoxReport
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:87:9-90:63
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:89:13-44
+	android:windowSoftInputMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:90:13-60
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:88:13-38
 activity#com.android.barcode.DeliveryFH
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:83:9-85:47
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:91:9-93:47
 	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:85:13-44
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:93:13-44
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:84:13-39
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:92:13-39
 activity#com.android.barcode.DeliveryBhMx
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:86:9-88:47
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:94:9-96:47
 	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:88:13-44
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:96:13-44
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:87:13-41
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:95:13-41
 activity#com.android.barcode.DeliveryBh
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:89:9-92:63
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:97:9-100:63
 	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:91:13-44
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:99:13-44
 	android:windowSoftInputMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:92:13-60
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:100:13-60
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:90:13-39
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:98:13-39
 activity#com.android.barcode.LoadingSupport
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:93:9-95:47
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:101:9-103:47
 	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:95:13-44
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:103:13-44
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:94:13-43
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:102:13-43
 activity#com.android.barcode.BoxDetail
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:96:9-98:47
-	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:98:13-44
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:97:13-38
-activity#com.android.barcode.Test
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:99:9-42
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:99:19-39
-activity#com.android.barcode.SupportReport
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:100:9-103:63
-	android:launchMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:102:13-44
-	android:windowSoftInputMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:103:13-60
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:101:13-42
-activity#com.android.barcode.ScanBOX
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:104:9-107:63
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:104:9-106:47
 	android:launchMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:106:13-44
-	android:windowSoftInputMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:107:13-60
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:105:13-36
-activity#com.android.barcode.Createbox
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:105:13-38
+activity#com.android.barcode.Test
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:107:9-42
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:107:19-39
+activity#com.android.barcode.SupportReport
 ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:108:9-111:63
 	android:launchMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:110:13-44
 	android:windowSoftInputMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:111:13-60
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:109:13-38
-activity#com.android.barcode.Scansupport
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:112:9-114:47
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:109:13-42
+activity#com.android.barcode.ScanBOX
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:112:9-115:63
 	android:launchMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:114:13-44
+	android:windowSoftInputMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:115:13-60
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:113:13-40
-activity#com.android.barcode.MoveList
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:115:9-46
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:115:19-43
-activity#com.android.barcode.Menu
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:116:9-118:47
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:113:13-36
+activity#com.android.barcode.Createbox
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:116:9-119:63
 	android:launchMode
 		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:118:13-44
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:117:13-33
-activity#com.android.barcode.Login
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:119:9-127:20
-	android:theme
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:121:13-69
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:120:13-34
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:122:13-126:29
-action#android.intent.action.MAIN
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:123:17-69
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:123:25-66
-category#android.intent.category.LAUNCHER
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:125:17-77
-	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:125:27-74
-activity#com.android.barcode.BarcodeDemoActivity
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:128:9-132:57
-	android:screenOrientation
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:131:13-49
-	android:label
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:130:13-45
 	android:windowSoftInputMode
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:132:13-54
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:119:13-60
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:129:13-48
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:117:13-38
+activity#com.android.barcode.Scansupport
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:120:9-122:47
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:121:13-40
+activity#com.android.barcode.MoveList
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:123:9-46
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:123:19-43
+activity#com.android.barcode.Menu
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:124:9-126:47
+	android:launchMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:126:13-44
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:125:13-33
+activity#com.android.barcode.Login
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:127:9-135:20
+	android:theme
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:129:13-69
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:128:13-34
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:130:13-134:29
+action#android.intent.action.MAIN
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:131:17-69
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:131:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:133:17-77
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:133:27-74
+activity#com.android.barcode.BarcodeDemoActivity
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:136:9-140:57
+	android:screenOrientation
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:139:13-49
+	android:label
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:138:13-45
+	android:windowSoftInputMode
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:140:13-54
+	android:name
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:137:13-48
 provider#android.support.v4.content.FileProvider
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:134:9-142:20
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:142:9-150:20
 	android:grantUriPermissions
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:138:13-47
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:146:13-47
 	android:authorities
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:136:13-67
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:144:13-67
 	android:exported
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:137:13-37
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:145:13-37
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:135:13-67
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:143:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:139:13-141:53
+ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:147:13-149:53
 	android:resource
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:141:17-50
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:149:17-50
 	android:name
-		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:140:17-67
+		ADDED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml:148:17-67
 uses-sdk
 INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Android\BarcodeDemo2-master\app\src\main\AndroidManifest.xml

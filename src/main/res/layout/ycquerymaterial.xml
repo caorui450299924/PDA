@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_ycjc"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:gravity="center|center_horizontal"
+        android:text="请扫描二维码"
+        android:background="@drawable/textview_border"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="100sp">
+
+        <Button
+            android:id="@+id/btn_ycjccx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:textSize="19sp" />
+
+
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/recycle_ycjc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+</LinearLayout>

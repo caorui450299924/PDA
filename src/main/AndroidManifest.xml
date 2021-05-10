@@ -17,7 +17,20 @@
                   android:launchMode="singleTask"
                   android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             ></activity>
+
+        <activity android:name=".FMQueryMaterial"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            ></activity>
         <activity android:name=".YCWarehousing"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            ></activity>
+        <activity android:name=".YCQueryMaterial"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            ></activity>
+        <activity android:name=".QueryMaterial"
             android:launchMode="singleTask"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             ></activity>

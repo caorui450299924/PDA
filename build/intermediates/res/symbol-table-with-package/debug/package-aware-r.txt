@@ -702,12 +702,14 @@ id btn_getsupportnum
 id btn_int_box
 id btn_int_sup
 id btn_int_sup2
+id btn_query_cx
 id btn_rk_confirm
 id btn_smzt
 id btn_support_confirm
 id btn_xbkck_cx
 id btn_yc_warehousing_cx
 id btn_yc_warehousing_rk
+id btn_ycjccx
 id button2
 id button4
 id buttonPanel
@@ -749,6 +751,7 @@ id customPanel
 id decor_content_parent
 id default_activity_button
 id disableHome
+id dw
 id edit_boxscan
 id edit_boxscan_box
 id edit_query
@@ -776,6 +779,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id gg
 id group_divider
 id home
 id homeAsUp
@@ -794,6 +798,7 @@ id imageView_pt
 id imageViewbhmx
 id imv_bkck_dis
 id imv_bkrk_dis
+id imv_yc_jccx
 id imv_yc_operation
 id info
 id italic
@@ -841,6 +846,11 @@ id productmph
 id progress
 id progress_circular
 id progress_horizontal
+id pz
+id query_dw
+id query_gg
+id query_pz
+id query_xs
 id radio
 id radioButton
 id radioButton2
@@ -858,10 +868,12 @@ id recycle_delivery_fh
 id recycle_fhdmx
 id recycle_hwh
 id recycle_product_location
+id recycle_querycx
 id recycle_rk
 id recycle_supportreport
 id recycle_xbkmhcx
 id recycle_yc_warehousing
+id recycle_ycjc
 id rev_int_sup
 id rev_load
 id rg1
@@ -1023,9 +1035,13 @@ id tv_username
 id tv_xbkck_gg
 id tv_xbkck_pz
 id tv_xbkck_xs
+id tv_yc_jccx_cp
+id tv_yc_jccx_hwh
+id tv_yc_jccx_jjc
 id tv_yc_operation_cp
 id tv_yc_operation_hwh
 id tv_yc_operation_jjc
+id tv_ycjc
 id uniform
 id up
 id useLogo
@@ -1035,6 +1051,7 @@ id wrap_content
 id xedt_gg
 id xedt_pz
 id xedt_xs
+id xs
 id yc_operation_cp
 id yc_operation_hw
 id yc_operation_sl
@@ -1114,6 +1131,7 @@ layout item_intsupport
 layout item_product_location
 layout item_scan_box
 layout item_support_search
+layout item_ycquerymateial
 layout item_ycwarehousing
 layout loadingsupport
 layout login_layout
@@ -1137,6 +1155,7 @@ layout notification_template_part_time
 layout productdetail
 layout productlocation
 layout progress
+layout querymaterial
 layout scanbox
 layout scansupport_layout
 layout select_dialog_item_material
@@ -1146,6 +1165,7 @@ layout support_simple_spinner_dropdown_item
 layout supportreport
 layout testfunction
 layout warehousing
+layout ycquerymaterial
 layout ycwarehousing
 layout ycwarehousingoperation
 string BOX_CODE

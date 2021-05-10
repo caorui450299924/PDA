@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="260sp">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="240sp"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/textview_border_product"
+        >
+
+        <ImageView
+            android:id="@+id/imv_fm_jccx"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/box" />
+
+        <RadioGroup
+            android:layout_width="300dp"
+            android:layout_height="220sp">
+
+            <TextView
+                android:id="@+id/tv_fm_jccx_cp"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fm_jccx_cp" />
+
+            <TextView
+                android:id="@+id/tv_fm_jccx_jjc"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fm_jccx_jjc" />
+
+            <TextView
+                android:id="@+id/tv_fm_jccx_hwh"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fm_jccx_hwh" />
+
+            <TextView
+                android:id="@+id/tv_fm_jccx_lch"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fm_jccx_lch" />
+            <TextView
+                android:id="@+id/tv_fm_jccx_bs"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fm_jccx_bs" />
+            <TextView
+                android:id="@+id/tv_fm_jccx_gxsj"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fm_jccx_gxsj" />
+
+
+        </RadioGroup>
+
+    </RadioGroup>
+</LinearLayout>

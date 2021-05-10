@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pz"
+            android:layout_width="70dp"
+            android:layout_height="60sp"
+            android:background="@drawable/textview_border"
+            android:gravity="left|center_vertical"
+            android:text="品种:"
+            android:textSize="26sp" />
+
+        <!--<EditText
+            android:id="@+id/edt_pz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"/>-->
+        <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/query_pz"
+        android:ems="10"
+        android:layout_weight="1"
+        android:completionThreshold="1"
+        ></AutoCompleteTextView>
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:background="@drawable/textview_border"
+        >
+
+        <TextView
+            android:id="@+id/gg"
+            android:layout_width="70dp"
+            android:layout_height="60sp"
+            android:gravity="left|center_vertical"
+            android:text="规格:"
+            android:textSize="26sp"
+            android:background="@drawable/textview_border"/>
+
+        <EditText
+            android:id="@+id/query_gg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"/>
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:background="@drawable/textview_border"
+        >
+
+        <TextView
+            android:id="@+id/xs"
+            android:layout_width="70dp"
+            android:layout_height="60sp"
+            android:gravity="left|center_vertical"
+            android:text="形式:"
+            android:textSize="26sp"
+            android:background="@drawable/textview_border"/>
+
+        <EditText
+            android:id="@+id/query_xs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"/>
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal"
+        android:background="@drawable/textview_border"
+        >
+
+        <TextView
+            android:id="@+id/dw"
+            android:layout_width="70dp"
+            android:layout_height="60sp"
+            android:gravity="left|center_vertical"
+            android:text="单位:"
+            android:textSize="26sp"
+            android:background="@drawable/textview_border"/>
+
+        <EditText
+            android:id="@+id/query_dw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"/>
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp" >
+
+        <Button
+            android:id="@+id/btn_query_cx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询" />
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_querycx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
