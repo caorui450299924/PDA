@@ -228,15 +228,16 @@ public class SupportReport extends Activity {
                 // Log.d("gg",gg);
                 Log.d("th",th+"");
                 JSONObject req_supportreport = new JSONObject();
-//                try {
-//                    req_supportreport.put("th",th);
-//                }catch (JSONException e){
-//                    e.printStackTrace();
-//                }
+                try {
+                    req_supportreport.put("th",th);
+                    req_supportreport.put("user",ListMap.getuserid());
+                }catch (JSONException e){
+                    e.printStackTrace();
+                }
                 OkHttpClient client = new OkHttpClient.Builder().connectTimeout(1000, TimeUnit.SECONDS).readTimeout(1000,TimeUnit.SECONDS).build();
                 RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),req_supportreport.toString());
                 LoadingDialog.getInstance(SupportReport.this).show();
-                final Request request = new Request.Builder().url("http://www.vapp.meide-casting.com/app/pz").post(requestBody).build();
+                final Request request = new Request.Builder().url("http://www.vapp.meide-casting.com/app/fmzprk").post(requestBody).build();
                 Call call = client.newCall(request);
                 call.enqueue(new Callback() {
                     @Override

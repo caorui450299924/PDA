@@ -120,6 +120,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fmquerymaterial.xml.flat",
+        "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\fmquerymaterial.xml"
+    },
+    {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\color-v23\\abc_tint_default.xml"
     },
@@ -764,6 +768,10 @@
         "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\drawable\\ruku.png"
     },
     {
+        "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_ycstock.xml.flat",
+        "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\item_ycstock.xml"
+    },
+    {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_normal_layout.xml.flat",
         "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\dialog_normal_layout.xml"
     },
@@ -1072,6 +1080,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_ycdelivery_material.xml.flat",
+        "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\item_ycdelivery_material.xml"
+    },
+    {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.png.flat",
         "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\drawable\\delete.png"
     },
@@ -1120,6 +1132,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_ycstock_material.xml.flat",
+        "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\item_ycstock_material.xml"
+    },
+    {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\layout\\abc_screen_content_include.xml"
     },
@@ -1154,6 +1170,10 @@
     {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_ycstock.xml.flat",
+        "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\ycstock.xml"
     },
     {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p3.png.flat",
@@ -1464,12 +1484,20 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_ycdelivery.xml.flat",
+        "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\ycdelivery.xml"
+    },
+    {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_ycdelivery_material.xml.flat",
+        "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\ycdelivery_material.xml"
     },
     {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -1522,6 +1550,10 @@
     {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_ycstock_material.xml.flat",
+        "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\ycstock_material.xml"
     },
     {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
@@ -1958,6 +1990,10 @@
     {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a3a9e22007cb6d8b2fa75acb81cda4fb\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_fmquerymateial.xml.flat",
+        "source": "F:\\Android\\BarcodeDemo2-master\\app\\src\\main\\res\\layout\\item_fmquerymateial.xml"
     },
     {
         "merged": "F:\\Android\\BarcodeDemo2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",

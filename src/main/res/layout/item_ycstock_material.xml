@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="120sp">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/textview_border_product"
+        >
+
+        <ImageView
+            android:id="@+id/imv_yc_stock_material"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/box" />
+
+        <RadioGroup
+            android:layout_width="251sp"
+            android:layout_height="110sp">
+
+            <TextView
+                android:id="@+id/tv_yc_stock_material"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_yc_stock_material" />
+
+            <TextView
+                android:id="@+id/tv_yc_stock_num"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_yc_stock_num" />
+
+            <TextView
+                android:id="@+id/tv_yc_stock_hwh"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_yc_stock_hwh" />
+
+
+
+        </RadioGroup>
+
+
+    </RadioGroup>
+</LinearLayout>

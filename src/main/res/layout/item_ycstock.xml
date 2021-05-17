@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220sp">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="220sp"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/textview_border_product"
+        >
+
+        <ImageView
+            android:id="@+id/imv_yc_stock"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/box" />
+
+        <RadioGroup
+            android:layout_width="251sp"
+            android:layout_height="210sp">
+
+            <TextView
+                android:id="@+id/tv_yc_stock_code"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_yc_stock_code" />
+
+            <TextView
+                android:id="@+id/tv_yc_stock_customer"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_yc_stock_customer" />
+
+            <TextView
+                android:id="@+id/tv_yc_stock_trans"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_yc_stock_trans" />
+
+            <TextView
+                android:id="@+id/tv_yc_stock_car"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_yc_stock_car" />
+
+            <TextView
+                android:id="@+id/tv_yc_stock_order"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_yc_stock_order" />
+
+            <TextView
+                android:id="@+id/tv_yc_stock_delivery"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_yc_stock_delivery" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView_yc_stock_bh"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/bh" />
+
+    </RadioGroup>
+</LinearLayout>

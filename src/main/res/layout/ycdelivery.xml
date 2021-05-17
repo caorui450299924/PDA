@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/yc_delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:background="@drawable/textview_border"
+            android:gravity="left|center_vertical"
+            android:text="出库单号"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/yc_delivery_ckdh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"/>
+
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60sp" >
+
+        <Button
+            android:id="@+id/yc_delivery_cx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询" />
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_yc_delivery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
