@@ -26,6 +26,8 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
+import android.view.WindowManager;
+
 
 public class YCDelivery_Mteriale extends AppCompatActivityBase {
     TextView ckdh;
@@ -33,7 +35,7 @@ public class YCDelivery_Mteriale extends AppCompatActivityBase {
     Button ck_0;
     RecyclerView recyclerView;
     List<YCCK_Ckdmx> yc_ckds;
-
+    int flag ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +51,24 @@ public class YCDelivery_Mteriale extends AppCompatActivityBase {
         ckdh.setText(ckdh1);
         intBtn_cx(id);
         intBtn_ck(id);
+    }
 
+
+
+    @Override
+    public  void onBackPressed(){
+        if (flag == 1){
+            Log.d("flag",flag+"");
+            Intent intent1 = new Intent();
+            intent1.setAction(Intent.ACTION_MAIN);//setAction 调用什么功能   ACTION_MAIN 程序入口
+            intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);//Intent类中的一个静态标志属性   把将要启动的Activity放在一个新栈中
+            intent1.addCategory(Intent.CATEGORY_HOME);//指定当前动作（Action）被执行的环境    CATEGORY_HOME：设置该组件为Home Activity
+            startActivity(intent1);
+        }else{
+            Log.d("flag",flag+"");
+            super.onBackPressed();
+        }
+        return;
     }
 
     public void onResume(){
@@ -61,7 +80,6 @@ public class YCDelivery_Mteriale extends AppCompatActivityBase {
         ck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 JSONObject req_supportreport = new JSONObject();
                 try {
                     req_supportreport.put("id",id);
@@ -70,6 +88,7 @@ public class YCDelivery_Mteriale extends AppCompatActivityBase {
                 }
                 OkHttpClient client = new OkHttpClient.Builder().connectTimeout(1000, TimeUnit.SECONDS).readTimeout(1000,TimeUnit.SECONDS).build();
                 RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),req_supportreport.toString());
+                flag = 1;
                 LoadingDialog.getInstance(YCDelivery_Mteriale.this).show();
                 final Request request = new Request.Builder().url("http://www.vapp.meide-casting.com/app/ycck").post(requestBody).build();
                 Call call = client.newCall(request);
@@ -77,6 +96,7 @@ public class YCDelivery_Mteriale extends AppCompatActivityBase {
                     @Override
                     public void onFailure(Call call, IOException e) {
                         LoadingDialog.getInstance(YCDelivery_Mteriale.this).dismiss();
+                        flag = 0;
                         final  String message = e.getMessage();
                         runOnUiThread(new Runnable() {
                             @Override
@@ -90,6 +110,7 @@ public class YCDelivery_Mteriale extends AppCompatActivityBase {
                     @Override
                     public void onResponse(Call call, Response response) throws IOException {
                         LoadingDialog.getInstance(YCDelivery_Mteriale.this).dismiss();
+                        flag =0;
                         final String box_res1 = response.body().string();
                         try {
                             JSONObject box_res_json = new JSONObject(box_res1);
@@ -150,6 +171,7 @@ public class YCDelivery_Mteriale extends AppCompatActivityBase {
                     @Override
                     public void onFailure(Call call, IOException e) {
                         LoadingDialog.getInstance(YCDelivery_Mteriale.this).dismiss();
+                        flag =0;
                         final  String message = e.getMessage();
                         runOnUiThread(new Runnable() {
                             @Override
@@ -164,6 +186,7 @@ public class YCDelivery_Mteriale extends AppCompatActivityBase {
                     @Override
                     public void onResponse(Call call, Response response) throws IOException {
                         LoadingDialog.getInstance(YCDelivery_Mteriale.this).dismiss();
+                        flag =0;
                         final String box_res1 = response.body().string();
                         try {
                             JSONObject box_res_json = new JSONObject(box_res1);

@@ -17,24 +17,6 @@ public class FM_Material {
     private String bs;
     private String gxsj;
 
-    public FM_Material(String wl, String lch, String jjc, String hwh, String pz, String gg, String xs, String cpbm, String kbh, String gdh, String gys, String czfl, String bmcl, String bs, String gxsj) {
-        this.wl = wl;
-        this.lch = lch;
-        this.jjc = jjc;
-        this.hwh = hwh;
-        this.pz = pz;
-        this.gg = gg;
-        this.xs = xs;
-        this.cpbm = cpbm;
-        this.kbh = kbh;
-        this.gdh = gdh;
-        this.gys = gys;
-        this.czfl = czfl;
-        this.bmcl = bmcl;
-        this.bs = bs;
-        this.gxsj = gxsj;
-    }
-
     @Override
     public String toString() {
         return "FM_Material{" +
@@ -173,6 +155,24 @@ public class FM_Material {
     }
 
     public void setGxsj(String gxsj) {
+        this.gxsj = gxsj;
+    }
+
+    public FM_Material(String wl, String lch, String jjc, String hwh, String pz, String gg, String xs, String cpbm, String kbh, String gdh, String gys, String czfl, String bmcl, String bs, String gxsj) {
+        this.wl = wl;
+        this.lch = lch;
+        this.jjc = jjc;
+        this.hwh = hwh;
+        this.pz = pz;
+        this.gg = gg;
+        this.xs = xs;
+        this.cpbm = cpbm;
+        this.kbh = kbh;
+        this.gdh = gdh;
+        this.gys = gys;
+        this.czfl = czfl;
+        this.bmcl = bmcl;
+        this.bs = bs;
         this.gxsj = gxsj;
     }
 }

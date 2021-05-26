@@ -801,6 +801,7 @@ id imageViewbhmx
 id imv_bkck_dis
 id imv_bkrk_dis
 id imv_fm_jccx
+id imv_querymaterila_dis
 id imv_yc_delivery_material
 id imv_yc_jccx
 id imv_yc_operation
@@ -1047,6 +1048,12 @@ id tv_message
 id tv_mph
 id tv_name
 id tv_password
+id tv_querymaterila_bs
+id tv_querymaterila_gxsj
+id tv_querymaterila_hwh
+id tv_querymaterila_jjc
+id tv_querymaterila_lch
+id tv_querymaterila_wl
 id tv_scan_mph
 id tv_suppoert_dis
 id tv_username
@@ -1176,6 +1183,7 @@ layout item_fmquerymateial
 layout item_int_box
 layout item_intsupport
 layout item_product_location
+layout item_querymaterial
 layout item_scan_box
 layout item_support_search
 layout item_ycdelivery_material

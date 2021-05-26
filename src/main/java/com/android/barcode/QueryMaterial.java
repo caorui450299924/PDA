@@ -35,7 +35,7 @@ public class QueryMaterial extends AppCompatActivityBase {
     EditText q_dw;
     Button cx;
     RecyclerView recyclerView;
-    List<BK_info_mh> bk_info_mhs;
+    List<FM_Material> bk_info_mhs;
     String barcodeType;
     String param;
     String wl;
@@ -51,7 +51,7 @@ public class QueryMaterial extends AppCompatActivityBase {
         q_xs = (EditText)findViewById(R.id.query_xs);
         q_dw = (EditText)findViewById(R.id.query_dw);
         //edt_pz = (EditText)findViewById(R.id.edt_pz);
-        autoCompleteTextView = (AutoCompleteTextView)findViewById(R.id.edt_pz1);
+        autoCompleteTextView = (AutoCompleteTextView)findViewById(R.id.query_pz);
         getpz();
         cx = (Button) findViewById(R.id.btn_query_cx);
         recyclerView = (RecyclerView)findViewById(R.id.recycle_querycx);
@@ -166,7 +166,7 @@ public class QueryMaterial extends AppCompatActivityBase {
                 String pz = autoCompleteTextView.getText().toString();
                 String gg = q_gg.getText().toString();
                 String xs = q_xs.getText().toString();
-                String dw = q_dw.getText().toString();
+                String bs = q_dw.getText().toString();
                 //Log.d("pz",pz);
                // Log.d("gg",gg);
                 JSONObject req_supportreport = new JSONObject();
@@ -174,7 +174,8 @@ public class QueryMaterial extends AppCompatActivityBase {
                     req_supportreport.put("pz",autoCompleteTextView.getText());
                     req_supportreport.put("gg",q_gg.getText());
                     req_supportreport.put("xs",q_xs.getText());
-                    req_supportreport.put("dw",q_dw.getText());
+                    req_supportreport.put("bs",q_dw.getText());
+                    Log.d("cx",pz + "" + gg + "" + xs + "" + bs);
                 }catch (JSONException e){
                     e.printStackTrace();
                 }
@@ -218,11 +219,12 @@ public class QueryMaterial extends AppCompatActivityBase {
                             JSONArray box_Jsons = new JSONArray(box_res_json.get("data").toString());
                             int productsl = 0;
                             for (int i = 0 ;i < box_Jsons.length();i++){
-                                BK_info_mh bk_info_mh = new BK_info_mh(box_Jsons.getJSONObject(i).get("wl").toString(),box_Jsons.getJSONObject(i).get("lch").toString(),
+                                FM_Material bk_info_mh = new FM_Material(box_Jsons.getJSONObject(i).get("wl").toString(),box_Jsons.getJSONObject(i).get("lch").toString(),
                                         box_Jsons.getJSONObject(i).get("jjc").toString(),box_Jsons.getJSONObject(i).get("hwh").toString(),box_Jsons.getJSONObject(i).get("pz").toString(),
                                         box_Jsons.getJSONObject(i).get("gg").toString(), box_Jsons.getJSONObject(i).get("xs").toString(),box_Jsons.getJSONObject(i).get("cpbm").toString(),
                                         box_Jsons.getJSONObject(i).get("kbh").toString(),box_Jsons.getJSONObject(i).get("gdh").toString(), box_Jsons.getJSONObject(i).get("gys").toString(),
-                                        box_Jsons.getJSONObject(i).get("czfl").toString(),box_Jsons.getJSONObject(i).get("bmcl").toString());
+                                        box_Jsons.getJSONObject(i).get("czfl").toString(),box_Jsons.getJSONObject(i).get("bmcl").toString(),box_Jsons.getJSONObject(i).get("bs").toString(),
+                                        box_Jsons.getJSONObject(i).get("gxsj").toString());
                                 bk_info_mhs.add(bk_info_mh);
                                 /*Log.d("查询返回数据","66666666");
                                 Log.d("wl",box_Jsons.getJSONObject(i).get("wl").toString());
@@ -232,16 +234,16 @@ public class QueryMaterial extends AppCompatActivityBase {
                             //Log.d("boxs",boxs+"");
                             final int jss = productsl;
                             //Log.d("jss",jss+"");
-//                            runOnUiThread(new Runnable() {
-//                                @Override
-//                                public void run() {
-//                                    LinearLayoutManager layoutManager = new LinearLayoutManager(QueryMaterial.this);
-//                                    recyclerView.setLayoutManager(layoutManager);
-//                                    CaoRuiActivityAdapter adapter  =new CaoRuiActivityAdapter(bk_info_mhs, QueryMaterial.this, QueryMaterial.this);
-//                                    recyclerView.setAdapter(adapter);
-//                                    recyclerView.addItemDecoration(new SpacesItemDecoration());
-//                                }
-//                            });
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    LinearLayoutManager layoutManager = new LinearLayoutManager(QueryMaterial.this);
+                                    recyclerView.setLayoutManager(layoutManager);
+                                    QueryMaterialAdapter adapter  =new QueryMaterialAdapter(bk_info_mhs, QueryMaterial.this, QueryMaterial.this);
+                                    recyclerView.setAdapter(adapter);
+                                    recyclerView.addItemDecoration(new SpacesItemDecoration());
+                                }
+                            });
                         }catch (JSONException e){
                             Log.e("解析查询数据失败",e.getMessage());
                             final String msg = e.getMessage();

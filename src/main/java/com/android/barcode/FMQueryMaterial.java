@@ -53,21 +53,36 @@ public class FMQueryMaterial extends AppCompatActivityBase {
                     barcodeType="wl";
                     param=data;
                     wl=data;
-                }else if(data.indexOf(",")>0&&data.indexOf("hwh")>=0){
-                    //String hwh = data.substring(data.indexOf("YC,")+3);
-                    String hwh[] = data.split(",");
-                    Log.d("hwh",hwh[1]);
-                    bs=hwh[1];
-                    param=hwh[2];
-                    hwhfinal=hwh[2];
-                    Log.d("半库货位号",hwh[2]);
-                    tv_dis.setText("货位号："+hwh[2]);
-                    barcodeType="hwh";
-                    if(builder!=null){
-                        builder.cpmph.setText("货位号:"+hwh[2]);
+                }else if (data.indexOf("hwh=")>=0){
+                    String a = data.substring(data.indexOf("hwh="));
+                    Log.d("a123456",a);
+                    String substring[] = a.split("&");
+                    bs = substring[1].substring(substring[1].indexOf("bs=")+3);
+                    hwhfinal = substring[0].substring(substring[0].indexOf("hwh=")+4);
+                    Log.d("半库货位号",bs+""+hwhfinal);
+                    tv_dis.setText("货位号"+hwhfinal);
+                    barcodeType = "hwh";
+                    if (builder != null){
+                        builder.cpmph.setText("货位号:"+hwhfinal);
                         builder.cpsl.setText("0");
                     }
-                }else{
+                }
+//                else if(data.indexOf(",")>0&&data.indexOf("hwh")>=0){
+//                    //String hwh = data.substring(data.indexOf("YC,")+3);
+//                    String hwh[] = data.split(",");
+//                    Log.d("hwh",hwh[1]);
+//                    bs=hwh[1];
+//                    param=hwh[2];
+//                    hwhfinal=hwh[2];
+//                    Log.d("半库货位号",hwh[2]);
+//                    tv_dis.setText("货位号："+hwh[2]);
+//                    barcodeType="hwh";
+//                    if(builder!=null){
+//                        builder.cpmph.setText("货位号:"+hwh[2]);
+//                        builder.cpsl.setText("0");
+//                    }
+//                }
+            else{
                     barcodeType="null";
                     Toast.makeText(FMQueryMaterial.this,"请扫描产品或货位号",Toast.LENGTH_LONG).show();
                     return;
@@ -104,9 +119,9 @@ public class FMQueryMaterial extends AppCompatActivityBase {
                 ///清除list中数据
                 fm_materials.clear();
                 if(barcodeType.equals("wl")){
-                    searchwl("http://www.vapp.meide-casting.com/app/jjc","wl");
+                    searchwl("http://www.vapp.meide-casting.com/app/fmcxbywl","wl");
                 }else if(barcodeType.equals("hwh")){
-                    searchwl("http://www.vapp.meide-casting.com/app/wl","hwh");
+                    searchwl("http://www.vapp.meide-casting.com/app/fmcxbyhwh","hwh");
                 }
 
             }
@@ -117,11 +132,13 @@ public class FMQueryMaterial extends AppCompatActivityBase {
     public void searchwl(String url,String name){
         JSONObject req_supportreport = new JSONObject();
         try {
-        req_supportreport.put(name,param);
+        req_supportreport.put("hwh",hwhfinal);
+        req_supportreport.put("bs",bs);
         } catch (JSONException e) {
             e.printStackTrace();
         }
         OkHttpClient client = new OkHttpClient();
+        Log.d("adf",req_supportreport.toString());
         RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),req_supportreport.toString());
         //Log.d("查询数据",req_supportreport.toString());
         //Log.d("查询数据1",requestBody.toString());
