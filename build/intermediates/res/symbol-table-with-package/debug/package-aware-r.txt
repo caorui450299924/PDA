@@ -743,6 +743,7 @@ id checkbox
 id chronometer
 id clip_horizontal
 id clip_vertical
+id code
 id collapseActionView
 id content
 id contentPanel
@@ -779,6 +780,13 @@ id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
+id fmkb_cx
+id fmkb_rq
+id fmkb_zzgh
+id fmtask_code
+id fmtask_js
+id fmtask_qr
+id fmtask_tmh
 id forever
 id gg
 id group_divider
@@ -801,6 +809,7 @@ id imageViewbhmx
 id imv_bkck_dis
 id imv_bkrk_dis
 id imv_fm_jccx
+id imv_fmkb_dis
 id imv_querymaterila_dis
 id imv_yc_delivery_material
 id imv_yc_jccx
@@ -814,6 +823,9 @@ id iv
 id iv_box
 id iv_ing
 id iv_scan_box
+id js
+id kanaban_rq
+id kanban_zzgh
 id left
 id lin1
 id line1
@@ -874,6 +886,7 @@ id recycle_delivery_bh
 id recycle_delivery_fh
 id recycle_fhdmx
 id recycle_fmjc
+id recycle_fmkb
 id recycle_hwh
 id recycle_product_location
 id recycle_querycx
@@ -1005,6 +1018,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id tmh
 id top
 id topPanel
 id tv_bkck_cp
@@ -1044,6 +1058,12 @@ id tv_fm_jccx_hwh
 id tv_fm_jccx_jjc
 id tv_fm_jccx_lch
 id tv_fmjc
+id tv_fmkb_code
+id tv_fmkb_hwh
+id tv_fmkb_js
+id tv_fmkb_lch
+id tv_fmkb_rq
+id tv_fmkb_zzgh
 id tv_message
 id tv_mph
 id tv_name
@@ -1163,7 +1183,9 @@ layout dialog_normal_layout
 layout dialog_normal_layout_mhrk
 layout fhd
 layout fhdmx
+layout fmkanban
 layout fmquerymaterial
+layout fmtask
 layout hwhsearch
 layout intsupport
 layout item
@@ -1179,6 +1201,7 @@ layout item_caoruiactivity
 layout item_caoruiactivityrk
 layout item_caoruickactivity
 layout item_fhmx
+layout item_fmkanban
 layout item_fmquerymateial
 layout item_int_box
 layout item_intsupport

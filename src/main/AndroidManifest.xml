@@ -17,6 +17,14 @@
                   android:launchMode="singleTask"
                   android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             ></activity>
+        <activity android:name=".QueryTask"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            ></activity>
+        <activity android:name=".FmKanban"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            ></activity>
         <activity android:name=".YCDelivery_Mteriale"
             android:launchMode="singleTask"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"

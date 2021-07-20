@@ -33,6 +33,7 @@ public class OkHttpUnit {
         RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),res.toString());
         final Request request = new Request.Builder()
                 .url("http://www.vapp.meide-casting.com/ims/com.sie.crm.mobile.mobileMd.verifyUser.biz.ext")
+                //.url("http://vapp.meide-casting.com/ims/com.sie.crm.mobile.mobileMd.verifyUser.biz.ext")
                 .post(requestBody)
                 .build();
         Call call = client.newCall(request);

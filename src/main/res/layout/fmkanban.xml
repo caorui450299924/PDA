@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kanaban_rq"
+            android:layout_width="100sp"
+            android:layout_height="60sp"
+            android:gravity="center"
+            android:text="日期："
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/fmkb_rq"
+            android:layout_width="match_parent"
+            android:layout_height="60sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kanban_zzgh"
+            android:layout_width="140dp"
+            android:layout_height="60sp"
+            android:gravity="center"
+            android:text="组装工号："
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/fmkb_zzgh"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"/>
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/fmkb_cx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:text="查询"
+        android:textSize="30sp" />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_fmkb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

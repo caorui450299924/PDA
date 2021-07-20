@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="240sp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:layout_gravity="right"
+        android:background="@drawable/textview_border_product"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imv_fmkb_dis"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/box" />
+
+        <RadioGroup
+            android:layout_width="341dp"
+            android:layout_height="210sp">
+
+            <TextView
+                android:id="@+id/tv_fmkb_code"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fmkb_code" />
+
+            <TextView
+                android:id="@+id/tv_fmkb_lch"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fmkb_lch" />
+
+            <TextView
+                android:id="@+id/tv_fmkb_hwh"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fmkb_hwh" />
+
+            <TextView
+                android:id="@+id/tv_fmkb_rq"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fmkb_rq" />
+
+            <TextView
+                android:id="@+id/tv_fmkb_js"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fmkb_js" />
+
+            <TextView
+                android:id="@+id/tv_fmkb_zzgh"
+                android:layout_width="match_parent"
+                android:layout_height="35sp"
+                android:layout_gravity="top"
+                android:background="@drawable/textview_border_product"
+                android:gravity="center"
+                android:textSize="16sp"
+                tools:text="tv_fmkb_zzgh" />
+
+        </RadioGroup>
+
+
+    </RadioGroup>
+</LinearLayout>

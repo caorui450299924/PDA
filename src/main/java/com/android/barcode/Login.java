@@ -183,6 +183,7 @@ public class Login extends AppCompatActivity {
                 */
 
                 String relut =  TrustAllHttps(login_json,"https://www.vapp.meide-casting.com/ims/com.sie.crm.mobile.mobileMd.verifyUser.biz.ext");
+                //String relut =  TrustAllHttps(login_json,"https://vapp.meide-casting.com/ims/com.sie.crm.mobile.mobileMd.verifyUser.biz.ext");
                 String retMsg = "";
                 JSONObject obj = null;
                 JSONArray role = null;

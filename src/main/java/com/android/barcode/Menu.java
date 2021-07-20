@@ -105,11 +105,15 @@ public class Menu extends Activity {
             getmenu_json_tj.put("roleid", Login.roleid);
             getmenu_json.put("paramobj", getmenu_json_tj);
             Log.d("请求菜单开始",getmenu_json.toString());
+            Log.d("session",Login.sessionId);
             ///请求服务器
             OkHttpClient client = new OkHttpClient();
             RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),getmenu_json.toString());
             final Request request = new Request.Builder()
-                    .url("http://www.vapp.meide-casting.com/ims/com.dwb.reporter.queryfmfc.querybh.biz.ext")
+                    .url("https://www.vapp.meide-casting.com/ims/com.dwb.reporter.queryfmfc.querybh.biz.ext")
+                    //.url("http://221.214.27.228/ims/com.dwb.reporter.queryfmfc.querybh.biz.ext")
+                    //.url("https://vapp.meide-casting.com/ims/com.dwb.reporter.queryfmfc.querybh.biz.ext")
+                    //.url("http://10.0.1.31:8081/ims/com.dwb.reporter.queryfmfc.querybh.biz.ext")
                     .post(requestBody)
                     .addHeader("cookie","JSESSIONID="+Login.sessionId)
                     .build();

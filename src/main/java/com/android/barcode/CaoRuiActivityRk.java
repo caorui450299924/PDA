@@ -61,7 +61,16 @@ public class CaoRuiActivityRk extends AppCompatActivityBase {
                     edt_dhwh.setFocusable(false);
                     //Log.d("aaa",hwh);
                     jmxg();
-                }else{
+                }else if(data.indexOf("hwh=")>=0&&data.indexOf("&")>0){
+                    String a = data.substring(data.indexOf("hwh="));
+                    String substring[] = a.split("&");
+                    String hwh = substring[0].substring(substring[0].indexOf("hwh=")+4);
+                    edt_dhwh.setText(hwh);
+                    edt_dhwh.setFocusable(false);
+                    //Log.d("aaa",hwh);
+                    jmxg();
+                }
+                else{
                     Toast.makeText(CaoRuiActivityRk.this,"请扫描货位号",Toast.LENGTH_LONG).show();
                     return;
                 }

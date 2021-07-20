@@ -37,7 +37,7 @@ public class ListMap {
     private static List<Fh_info> fh_info_list = new ArrayList<>();
 
     ///IMS路径
-    public static String imsUrl ="http://www.vapp.meide-casting.com/ims/";
+    public static String imsUrl ="https://www.vapp.meide-casting.com/ims/";
 
     ///接口路径
     public static String requestUrl ="http://www.vapp.meide-casting.com/Service/MDWechatService.asmx/";
